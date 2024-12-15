@@ -4,39 +4,32 @@ This project is a web-based interactive dashboard that allows users to explore C
 
 The data includes CO2 emissions for multiple countries in different sectors such as "Energy" and "Transport". The user can select a country from a dropdown menu and view a bar chart displaying the CO2 emissions by sector for that country.
 
-Features
-Dropdown Selection: Users can select a country to filter the data and see the CO2 emissions for that country.
-Bar Chart Visualization: A bar chart is displayed to visualize CO2 emissions by sector for the selected country.
-Dynamic Updates: The graph updates dynamically based on the selected country.
-Technologies Used
+Features:-
+1. Dropdown Selection: Users can select a country to filter the data and see the CO2 emissions for that country.
+2. Bar Chart Visualization: A bar chart is displayed to visualize CO2 emissions by sector for the selected country.
+3. Dynamic Updates: The graph updates dynamically based on the selected country.
+   
+Technologies Used:-
 Dash: A Python framework for building web applications.
 Plotly: A graphing library for creating interactive visualizations.
 Pandas: A data manipulation and analysis library in Python.
-Requirements
-To run this project, you need to install the following Python libraries:
 
-bash
-Copy code
+Requirements:-
+To run this project, you need to install the following Python libraries:
 pip install dash plotly pandas
+
 Running the App
 Clone or download the project repository.
-
 Make sure you have all the required libraries installed by running the following command in your terminal:
 
-bash
-Copy code
-pip install dash plotly pandas
 Run the Python script app.py to start the Dash app:
-
-bash
-Copy code
 python app.py
-Open your web browser and go to http://127.0.0.1:8050 to view the dashboard.
 
 How to Use the Dashboard
-Select a Country: Use the dropdown menu at the top of the page to select a country.
-View the Graph: The bar chart will update to display CO2 emissions for the selected country, broken down by sector (Energy, Transport, etc.).
-Explore Data: You can compare CO2 emissions across different sectors for any given country.
+1. Select a Country: Use the dropdown menu at the top of the page to select a country.
+2. View the Graph: The bar chart will update to display CO2 emissions for the selected country, broken down by sector (Energy, Transport, etc.).
+3. Explore Data: You can compare CO2 emissions across different sectors for any given country.
+
 Example Data
 The current data includes CO2 emissions for the following countries:
 
@@ -47,21 +40,12 @@ Germany
 UK
 Each country has data for two sectors: "Energy" and "Transport".
 
-Project Structure
-plaintext
-Copy code
+Project Structure:-
 .
 ├── app.py                # Main application code
 └── README.md             # This file
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Dash and Plotly for providing the powerful frameworks for building interactive web applications and visualizations.
-Pandas for providing efficient data structures and analysis tools.
-This README.md provides an overview of the project, instructions for setup, usage, and other relevant information. Let me know if you need further changes!
-
-
-
-
+Acknowledgments:-
+1. Dash and Plotly for providing the powerful frameworks for building interactive web applications and visualizations.
+2. Pandas for providing efficient data structures and analysis tools.
 
