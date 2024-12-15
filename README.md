@@ -18,26 +18,25 @@ Requirements:-
 To run this project, you need to install the following Python libraries:
 pip install dash plotly pandas
 
-Running the App
+Running the App:-
 Clone or download the project repository.
 Make sure you have all the required libraries installed by running the following command in your terminal:
 
 Run the Python script app.py to start the Dash app:
 python app.py
 
-How to Use the Dashboard
+How to Use the Dashboard:-
 1. Select a Country: Use the dropdown menu at the top of the page to select a country.
 2. View the Graph: The bar chart will update to display CO2 emissions for the selected country, broken down by sector (Energy, Transport, etc.).
 3. Explore Data: You can compare CO2 emissions across different sectors for any given country.
 
-Example Data
+Example Data:-
 The current data includes CO2 emissions for the following countries:
-
-USA
-China
-India
-Germany
-UK
+. USA
+. China
+. India
+. Germany
+. UK
 Each country has data for two sectors: "Energy" and "Transport".
 
 Project Structure:-
